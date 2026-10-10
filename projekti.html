@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projekti – FIN ARS</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="bg-slideshow">
+    <div class="bg-slide active" style="background-image: url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1920&q=80')"></div>
+    <div class="bg-slide" style="background-image: url('https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1920&q=80')"></div>
+    <div class="bg-slide" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1920&q=80')"></div>
+  </div>
+  <div class="bg-overlay"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">FIN ARS</a>
+      <nav class="main-nav">
+        <a href="index.html">Domov</a>
+        <a href="projekti.html" class="active">Projekti</a>
+        <a href="o-nas.html">O nas</a>
+        <a href="kontakt.html">Kontakt</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Meni"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Projekti</h1>
+        <p class="section-lead">Pregled naših arhitekturnih realizacij od leta 2005 dalje.</p>
+      </div>
+    </section>
+    <section class="projects-list">
+      <div class="container">
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="all">Vsi</button>
+          <button class="filter-btn" data-filter="2016">2016</button>
+          <button class="filter-btn" data-filter="2015">2015</button>
+          <button class="filter-btn" data-filter="2013">2013</button>
+          <button class="filter-btn" data-filter="2012">2012</button>
+          <button class="filter-btn" data-filter="2011">2011</button>
+          <button class="filter-btn" data-filter="2010">2010</button>
+          <button class="filter-btn" data-filter="2009">2009</button>
+          <button class="filter-btn" data-filter="2005">2005</button>
+        </div>
+        <div class="project-grid">
+          <a href="projekti/hisa-v-gozdu.html" class="project-card" data-year="2013">
+            <div class="project-image"><img src="https://www.finars.si/projekti/2013%204%20hisa%20v%20gozdu/01.jpg" alt="Hiša v gozdu" loading="lazy"></div>
+            <div class="project-info"><span class="project-year">2013 – 2015</span><h3>Hiša v gozdu</h3><p>Enodružinska troetažna hiša z odprtim dnevnim delom.</p></div>
+          </a>
+          <a href="projekti/bazen-trbovlje.html" class="project-card" data-year="2010">
+            <div class="project-image"><img src="https://www.finars.si/projekti/2010%201%20bazen%20trbovlje/01.jpg" alt="Bazen Trbovlje" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=800&q=80'"></div>
+            <div class="project-info"><span class="project-year">2010</span><h3>Notranji bazen Trbovlje</h3><p>Tekmovalni in potapljaški bazen.</p></div>
+          </a>
+          <a href="projekti/vila-arbos.html" class="project-card" data-year="2011">
+            <div class="project-image"><img src="https://www.finars.si/projekti/2011%206%20vila%20arbos/01.jpg" alt="Vila Arbos" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80'"></div>
+            <div class="project-info"><span class="project-year">2011</span><h3>Vila Arbos</h3><p>Elegantna stanovanjska vila.</p></div>
+          </a>
+          <a href="projekti/mladinski-center-trbovlje.html" class="project-card" data-year="2011">
+            <div class="project-image"><img src="https://www.finars.si/projekti/2011%205%20mladinski%20center%20trbovlje/01.jpg" alt="Mladinski center" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80'"></div>
+            <div class="project-info"><span class="project-year">2011</span><h3>Mladinski center Trbovlje</h3><p>Mladinski center in hotel.</p></div>
+          </a>
+          <a href="projekti/olimpijski-bazen-libija.html" class="project-card" data-year="2013">
+            <div class="project-image"><img src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=800&q=80" alt="Olimpijski bazen" loading="lazy"></div>
+            <div class="project-info"><span class="project-year">2013</span><h3>Olimpijski bazen Libija</h3><p>Notranji olimpijski bazenski kompleks.</p></div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand"><strong>FIN ARS d.o.o.</strong><p>Center za arhitekturo</p></div>
+      <div class="footer-links"><a href="projekti.html">Projekti</a><a href="o-nas.html">O nas</a><a href="kontakt.html">Kontakt</a></div>
+      <div class="footer-copy"><p>© 2026 FIN ARS d.o.o.</p></div>
+    </div>
+  </footer>
+  <div class="lightbox" id="lightbox"><button class="lightbox-close">&times;</button><img src="" alt="" id="lightboxImg"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>
